@@ -1,0 +1,19 @@
+# Mise à jour système
+sudo apt update && sudo apt upgrade -y
+
+# Création utilisateur
+sudo adduser yassin
+
+# Installation du serveur SSH
+sudo apt install openssh-server
+
+# Activation du service SSH
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
+# Vérification du statut
+sudo systemctl status ssh
+
+# Configuration pare-feu
+sudo ufw allow ssh
+sudo ufw enable
