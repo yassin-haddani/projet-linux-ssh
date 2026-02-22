@@ -39,3 +39,11 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo ufw allow ssh
 sudo systemctl status ssh
+
+---
+
+## 📂 Structure du projet
+
+- README.md → Présentation du projet
+- configuration-ssh.txt → Commandes utilisées
+- docs/securisation.md → Détails techniques et sécurité
